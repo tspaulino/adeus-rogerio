@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Adeus, Rogério Ceni</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.lwtCountdown-1.0.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+        $('#countdown_dashboard').countDown({
+          targetDate: {
+            'day':    6,
+            'month':  8,
+            'year':   2015,
+            'hour':   0,
+            'min':    0,
+            'sec':    0
+          }
+        });
+        $('#countdown_dashboard').startCountDown();
+      });
+    </script>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="brand-heading">Adeus, Rogério Ceni</h1>
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                         <!-- Countdown dashboard start -->
+                          <div id="countdown_dashboard">
+                            <div class="dash weeks_dash">
+                              <span class="dash_title">semanas</span>
+                              <div class="digit">0</div>
+                              <div class="digit">0</div>
+                            </div>
+
+                            <div class="dash days_dash">
+                              <span class="dash_title">dias</span>
+                              <div class="digit">0</div>
+                              <div class="digit">0</div>
+                            </div>
+
+                            <div class="dash hours_dash">
+                              <span class="dash_title">horas</span>
+                              <div class="digit">0</div>
+                              <div class="digit">0</div>
+                            </div>
+                            <div class="dash minutes_dash">
+                              <span class="dash_title">minutos</span>
+                              <div class="digit">0</div>
+                              <div class="digit">0</div>
+                            </div>
+                            <div class="dash seconds_dash">
+                              <span class="dash_title">segundos</span>
+                              <div class="digit">0</div>
+                              <div class="digit">0</div>
+                            </div>
+                          </div>
+                          <!-- Countdown dashboard end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
